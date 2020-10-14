@@ -7,7 +7,7 @@
 		} elseif(strpos($agent, 'Firefox') !== FALSE) {
 			return "Firefox";
 		}
-		}
+	}
 	$navegador = getBrowser($agent);
 ?>
 <?php if($navegador == "Firefox" || $navegador == "Chrome") { ?>
